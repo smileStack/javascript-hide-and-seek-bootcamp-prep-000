@@ -2,7 +2,7 @@
 getFirstSelector('div');
 nestedTarget();
 deepestChild();
-increaseRankBy1(3);
+increaseRankBy(3);
 // window.addEventListener('load', getFirstSelector(), false);
 // window.addEventListener('load', nestedTarget(), false);
 // window.addEventListener('load', deepestChild(), false);
