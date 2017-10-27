@@ -16,7 +16,6 @@ function nestedTarget() {
 }
 function deepestChild(){
   var sav = document.querySelectorAll('#grand-node div');
-  console.log(sav);
   return sav[(sav.length-1)];
 }
 function increaseRankBy(num){
@@ -24,5 +23,6 @@ function increaseRankBy(num){
    for(let i=0; i<sav.length; i++){
      sav[i].innerHTML =  parseInt(sav[i].innerHTML) + num;
    }
+   console.log(sav);
    return sav;
 }
